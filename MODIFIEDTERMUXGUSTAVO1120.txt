@@ -21,5 +21,6 @@ echo 'DISCORD https://discord.gg/emzcNHz' | lolcat
 echo 'YOUTUBE https://www.youtube.com/channel/UCNXrtO5Y4945CGM-kDpMqCw' | lolcat
 
 echo 'VERSÃ0 1.0' | lolcat
+cd ..
 cd ../usr/etc
 nano motd
