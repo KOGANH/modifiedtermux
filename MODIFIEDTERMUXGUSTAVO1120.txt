@@ -1,0 +1,22 @@
+#!/bin/bash
+
+apt update
+
+apt upgrade
+
+pkg update
+pkg install figlet
+apt install ruby
+apt install lolcat
+gem install lolcat
+pkg upgrade
+
+clear
+
+figlet 'FERRAMENTA DESENVOLVIDA POR GUSTAVO 1120' | lolcat
+echo 'DISCORD https://discord.gg/emzcNHz' | lolcat
+echo 'YOUTUBE https://www.youtube.com/channel/UCNXrtO5Y4945CGM-kDpMqCw' | lolcat
+
+echo 'VERSÃ0 1.0' | lolcat
+cd ../usr/etc
+nano motd
