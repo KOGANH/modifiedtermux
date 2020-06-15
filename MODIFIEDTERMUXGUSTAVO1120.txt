@@ -7,6 +7,7 @@ apt upgrade
 pkg update
 pkg install figlet
 apt install ruby
+pkg install nano
 apt install lolcat
 gem install lolcat
 pkg upgrade
